@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Email Template</title>
+    <title>Vacasa - Together We Go - Mockup Design</title>
     <style>
         body {
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
-            font-family: Arial, sans-serif;
+            font-family: 'Times New Roman', Times, serif;
         }
         .email-container {
             max-width: 600px;
@@ -49,6 +49,52 @@
             line-height: 1.5;
             padding: 0 50px;
         }
+        .content-cta {
+            position: relative;
+        }
+        .image-container {
+            position: relative;
+        }
+        .image-container img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            width: 50%; /* Overlay adjuster */
+            background-color: rgb(15, 54, 85);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align:left;
+        }
+        .textoverlay {
+            /* position: absolute; */
+            /* text-align: center; */
+            color: #ffffff;
+            /* left: 35%; */
+            /* top: 50%; */
+            /* transform: translate(-25%, -50%); */
+            padding: 45px;
+        }
+        .cta-button {
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 3px;
+            border: 2px solid white;
+            background-color: transparent;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .textoverlay-button {
+            margin-top: 10px;
+            padding: 0 20px;
+        }
         .links {
             text-decoration: none;
             color: skyblue;
@@ -82,15 +128,15 @@
 <body>
     <div class="email-container">
         <div class="header">
-            <img src="/img/vacasa-logo-mockup.png" alt="vacasa-logo-mockup">
+            <img src="/img/vacasa-logo-mockup.png" alt="Vacasa Logo">
         </div>
         <div class="content">
-            <img class="content-img" src="/img/together-we-go-mockup.png" alt="together-we-go-mockup rainbow banner">
+            <img class="content-img" src="/img/together-we-go-mockup.png" alt="Together We Go Mockup Rainbow Banner">
             <p style="text-align: center;">
                 We believe that vacations are for everyone. For Pride Month 2024, we're highlighting some of LGBTQ+ travel's most popular destinations and events&mdash;join the celebration of love and community in these major cities across the country.
             </p>
             <div class="button-container">
-                <a href="#" class="button">Let's Go Together <span style="font-size: 5px;">&rarr;</span> </a>
+                <a href="#" class="button">Let's Go Together <span style="font-size: 5px;">&rarr;</span></a>
             </div>
         </div>
         <div class="content">
@@ -112,7 +158,7 @@
         <div class="content">
             <img src="/img/3.svg" alt="Los Angeles, California">
             <h2>Los Angeles, California</h2>
-            <p>Los Angeles is known for hosting one of the biggest Pride celebrations globally—if you’re looking to party it up all month long, this is the place to be. Celebrations kick off with a single-day music extravaganza, <a href="https://click.e.vacasa.com/?qs=43398f8a5f01d1127280babb873430ac7b02f02ae3668bd29766c68ebe71e11f5ad9a654f6e9b19ebda3368454983035d56934a33056fb0eb5997b84675aa8af" class="links">LA Pride in the Park</a>, headlined by Ricky Martin. Other must-see events include the 54th Annual <a href="https://click.e.vacasa.com/?qs=43398f8a5f01d1126835e92234d84ab6b4601e73e70a7b1f7de36c646f2aed07b7de0d0fc3cc30aa960ae617e8431f6878db1f570b1d2c669356302e45aa5c90" class="links">LA Pride Parade</a> on June 9, alongside activities in Pride Village, as well as <a href="https://click.e.vacasa.com/?qs=43398f8a5f01d11276be9a0907b670f5b1d7d00d22cfbc7d7e53ad0294aecbfaf178b65511da6e7b72e21bcaa2b68a740f45fa5fad9166391f47e5640262caa6" class="links">Pride is Universal</a> at Universal Studios on June 15.</p>
+            <p>Los Angeles is known for hosting one of the biggest Pride celebrations globally—if you’re looking to party it up all month long, this is the place to be. Celebrations kick off with a single-day music extravaganza, <a href="https://click.e.vacasa.com/?qs=43398f8a5f01d1127280babb873430ac7b02f02ae3668bd29766c68ebe71e11f5ad9a654f6e9b19ebda3368454983035d56934a33056fb0eb5997b84675aa8af" class="links">LA Pride in the Park</a>, headlined by Ricky Martin. Other must-see events include the 54th Annual <a href="https://click.e.vacasa.com/?qs=43398f8a5f01d1126835e92234d84ab6b4601e73e70a7b1f7de36c646f2aed07b7de0d0fc3cc30aa960ae617e8435d839e1a640014e6e1a66c5a356d4f32419b" class="links">LA Pride Parade</a> in West Hollywood and <a href="https://click.e.vacasa.com/?qs=43398f8a5f01d112a0aeb59db6bde87ebfb98f31936928ae6d9f63ac40271692022ec52917a9b82fa208d69f35b842697c8cf1b213d6559c2a96a8dbefcccb9c" class="links">Outloud Music Festival</a> at WeHo Pride.</p>
             <p class="rental-info">
                 <a class="links" href="https://click.e.vacasa.com/?qs=43398f8a5f01d112c4981344317fad8260c3d9b95dd371db5c340ded290f7e602928a54c65aa8da01e78523b69d05b4a24c2457d809d97021ca37712d876da80">Explore Los Angeles Vacation Rentals &rarr;</a>
             </p>
@@ -133,17 +179,25 @@
                 <a class="links" href="https://click.e.vacasa.com/?qs=43398f8a5f01d112c4981344317fad8260c3d9b95dd371db5c340ded290f7e602928a54c65aa8da01e78523b69d05b4a24c2457d809d97021ca37712d876da80">Explore New Orleans Vacation Rentals &rarr;</a>
             </p>
         </div>
-        <div class="content">
-            <img src="/img/5.svg" alt="New Orleans, Louisiana">
-            <h2>New Orleans, Louisiana</h2>
-            <p>When a town is as world-famous for its street parades as New Orleans is, it's no surprise that this city goes all out for its Pride festivities. After all, New Orleans was once voted the second most-welcoming city for LGBT people in America. The Big Easy officially hosts Louisiana’s largest LGBTQ+ parade as part of its <a href="https://click.e.vacasa.com/?qs=43398f8a5f01d1125080e7b510aa6cfd38acf9d6a36652e2ba1f94e043b8504f206a47a0fbf23ec09f0f3addbad9e007e4a6c8df5eacd2d0e1de0922add5433c" class="links">Pride Weekend</a> taking place June 7-9, with more events happening all month long, including <a href="https://click.e.vacasa.com/?qs=43398f8a5f01d112c1cfeec30aa2b7deb3358528cf941351ff30ec56a9a2d9f37f74dd5949f61189cef4dd8cc52397fc3d329f60e85ec825540e44b757a18f6b" class="links">Black Pride NOLA</a>.</p>
-            <p class="rental-info">
-                <a class="links" href="https://click.e.vacasa.com/?qs=43398f8a5f01d112c4981344317fad8260c3d9b95dd371db5c340ded290f7e602928a54c65aa8da01e78523b69d05b4a24c2457d809d97021ca37712d876da80">Explore New Orleans Vacation Rentals &rarr;</a>
-            </p>
-        </div>
+        <div class="content-cta">
+            <div class="image-container">
+                <img src="/img/6.svg" alt="Let's Go Together">
+                <div class="overlay">
+                    <div class="textoverlay">
+                        <h2>Take 20% off</h2>
+                        <p>
+                            Enjoy your summer vacation with a limited-time offer using promo code <span style="font-weight: bold;">EARLYSUMMER24</span>. Don't wait—this offer ends June 3, 2024.</p>
+                        <div class="textoverlay-button">
+                            <a href="#" class="cta-button" style="display: flex; align-items: center; justify-content: center;">Jet-Set & Save <span style="font-size: 5px;">&rarr;</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
         <div class="footer">
-            <p>123 Street, City, State, 12345</p>
-            <p><a href="#">Unsubscribe</a> | <a href="#">Privacy Policy</a></p>
+            <p>&copy; 2024 Vacasa LLC. All rights reserved.</p>
+            <p>1234 Vacation Road, Somewhere, USA</p>
+            <p><a href="#">Unsubscribe</a></p>
         </div>
     </div>
 </body>
